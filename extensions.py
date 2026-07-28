@@ -22,20 +22,21 @@ WINDOWS_SCRIPT_EXTENSIONS = {
     ".wsf",
     ".wsh",
     ".hta",
+     ".ps1xml",
+    ".psc1",
+    ".pssc",
+    ".py",
+    ".rb",
+    ".pl",
 }
 
-COMMON_EXTENSIONS = {
-    ".txt",
-    ".csv",
+DATA_EXTENSIONS = {
+     ".csv",
     ".json",
     ".xml",
-    ".pdf",
-    ".doc",
-    ".docx",
-    ".xls",
-    ".xlsx",
-    ".ppt",
-    ".pptx",
+    ".yaml",
+    ".yml",
+    ".toml",
 }
 
 ARCHIVE_EXTENSIONS = {
@@ -136,17 +137,102 @@ DATABASE_EXTENSIONS = {
     ".edb",
 }
 
+CERTIFICATE_EXTENSIONS = {
 
-#DATABASE_EXTENSIONS
+    ".cer",
+    ".crt",
+    ".pem",
+    ".pfx",
+    ".p12",
+    ".der",
+    ".csr",
+    ".key",
 
-#CERTIFICATE_EXTENSIONS
+}
 
-#CONFIGURATION_EXTENSIONS
+SOURCE_CODE_EXTENSIONS = {
+    ".c",
+    ".cpp",
+    ".cc",
+    ".h",
+    ".hpp",
+    ".cs",
+    ".java",
+    ".py",
+    ".js",
+    ".ts",
+    ".go",
+    ".rs",
+    ".php",
+    ".rb",
+    ".pl",
+    ".swift",
+    ".kt",
+    ".vb",
+    ".asm",
+    ".s",
+    ".sql",
 
-#SOURCE_CODE_EXTENSIONS
+}
+WEB_EXTENSIONS = {
+    ".html",
+    ".htm",
+    ".css",
+    ".js",
+    ".json",
+    ".xml",
+    ".php",
+    ".asp",
+    ".aspx",
+    ".jsp",
+    ".cgi",
+}
+EMAIL_EXTENSIONS = {
+    ".eml",
+    ".msg",
+    ".pst",
+    ".ost",
+    ".mbox",
+}
+VIRTUAL_MACHINE_EXTENSIONS = {
+    ".vmdk",
+    ".vhd",
+    ".vhdx",
+    ".vdi",
+    ".ova",
+    ".ovf",
+    ".qcow",
+    ".qcow2",
+}
+SHORTCUT_EXTENSIONS = {
+    ".lnk",
+    ".url",
+}
+REGISTRY_EXTENSIONS = {
+    ".reg",
+    ".hiv",
+}
+DRIVER_EXTENSIONS = {
+    ".sys",
+    ".drv",
+}
+WINDOWS_LIBRARY_EXTENSIONS = {
+    ".dll",
+    ".ocx",
+    ".cpl",
+}
+DISK_IMAGE_EXTENSIONS = {
+    ".iso",
+    ".img",
+    ".vhd",
+    ".vhdx",
+}
+MEMORY_DUMP_EXTENSIONS = {
+    ".dmp",
+    ".mdmp",
+    ".hdmp",
+}
 
-#WEB_EXTENSIONS
 
-#EMAIL_EXTENSIONS
 
 #VIRTUAL_MACHINE_EXTENSIONS
