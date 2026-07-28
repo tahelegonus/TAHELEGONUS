@@ -13,17 +13,35 @@ WINDOWS_CORE_PROCESSES = {
     "dwm.exe",
     "spoolsv.exe",
     "fontdrvhost.exe",
-}
-
-EXPECTED_PARENT_PROCESSES = {
-    "explorer.exe",
+     # boot / kernel initialization
+    "smss.exe",
+    "csrss.exe",
+    "wininit.exe",
+    # login/session
+    "winlogon.exe",
+    "LogonUI.exe",
+    "userinit.exe",
+    # services
     "services.exe",
     "svchost.exe",
-    "wininit.exe",
-    "winlogon.exe",
+    # security
+    "lsass.exe",
+    # desktop
+    "explorer.exe",
+    "dwm.exe",
+    # Windows hosting
+    "dllhost.exe",
     "taskhostw.exe",
-    "cmd.exe",
-    "powershell.exe",
+    "conhost.exe",
+    "RuntimeBroker.exe",
+    # printing
+    "spoolsv.exe",
+    # graphics/fonts
+    "fontdrvhost.exe",
+    "userinit.exe",
+    "LogonUI.exe",
+    "dllhost.exe",
+
 }
 
 WINDOWS_USER_PROCESSES = {
@@ -76,4 +94,78 @@ BROWSER_PROCESSES = {
     "iexplore.exe",
     "opera.exe",
     "brave.exe",
+}
+
+WINDOWS_SHELL_PROCESSES = {
+    "explorer.exe",
+    "StartMenuExperienceHost.exe",
+    "ShellExperienceHost.exe",
+    "SearchHost.exe",
+    "SearchIndexer.exe",
+    "TextInputHost.exe",
+    "ApplicationFrameHost.exe",
+    "LockApp.exe",
+
+}
+
+WINDOWS_HOST_PROCESSES = {
+    "svchost.exe",
+    "dllhost.exe",
+    "taskhostw.exe",
+    "RuntimeBroker.exe",
+    "WmiPrvSE.exe",
+    "conhost.exe",
+
+}
+
+SCRIPT_INTERPRETERS = {
+
+    "powershell.exe",
+    "pwsh.exe",
+    "cmd.exe",
+    "wscript.exe",
+    "cscript.exe",
+    "mshta.exe",
+    "rundll32.exe",
+
+}
+WINDOWS_SERVICE_PROCESSES = {
+
+    "services.exe",
+    "svchost.exe",
+    "lsass.exe",
+    "spoolsv.exe",
+    "SearchIndexer.exe",
+    "WmiPrvSE.exe",
+
+}
+WINDOWS_BACKGROUND_PROCESSES = {
+
+    "taskhostw.exe",
+    "fontdrvhost.exe",
+    "audiodg.exe",
+    "dasHost.exe",
+    "dwm.exe",
+    "RuntimeBroker.exe",
+    "ctfmon.exe",
+    "dllhost.exe",
+
+}
+OFFICE_PROCESSES = {
+
+    "winword.exe",
+    "excel.exe",
+    "powerpnt.exe",
+    "outlook.exe",
+    "onenote.exe",
+    "msaccess.exe",
+    "mspub.exe",
+
+}
+SERVICE_HOST_PROCESSES = {
+    "svchost.exe",
+    "dllhost.exe",
+    "taskhostw.exe",
+    "taskhost.exe",
+    "taskhostex.exe",
 }
