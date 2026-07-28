@@ -1,3 +1,4 @@
+
 WINDOWS_EXPECTED_PATHS = {
     r"C:\Windows",
     r"C:\Windows\System32",
@@ -50,4 +51,31 @@ TEMP_DIRECTORIES = {
     r"\Windows\Temp",
     r"\AppData\Local\Temp",
     r"\Temporary Internet Files",
+}
+
+WINDOWS_USER_PATHS = {
+
+    r"\Users",
+    r"\Desktop",
+    r"\Downloads",
+    r"\Documents",
+    r"\AppData",
+
+}
+
+SUSPICIOUS_EXECUTION_PATHS = {
+
+    r"\Temp",
+    r"\AppData\Roaming",
+    r"\AppData\Local\Temp",
+    r"\ProgramData",
+
+}
+
+WINDOWS_PROTECTED_PATHS = {
+
+    r"C:\Windows\System32",
+    r"C:\Windows\WinSxS",
+    r"C:\Program Files",
+
 }
